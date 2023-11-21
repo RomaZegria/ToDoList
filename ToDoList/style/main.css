@@ -1,0 +1,163 @@
+.toDoList {
+  padding-top: 3rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.toDoList__logo {
+  max-width: 160px;
+  margin-bottom: 5rem;
+}
+
+.toDoList__logo img {
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form__input {
+  width: 100%;
+  border-radius: 50px;
+  padding: 0.81rem 10.5rem 0.88rem 1.8rem;
+  background-color: #f0f5f8;
+  outline-color: transparent;
+  border: 1px solid #d2d2d2;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 145.8%;
+  letter-spacing: 0.03rem;
+}
+
+.form__btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10rem;
+  border-radius: 50px;
+  background-color: #00c55a;
+  color: #ffffff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-color: transparent;
+}
+
+.form__edit-btn {
+  background-color: #ff0000;
+}
+
+.toDoList__field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.toDoList__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 100%;
+  border-radius: 50px;
+  padding: 10px 40px 10px 31px;
+  background-color: #f0f5f8;
+}
+
+.item__text-content {
+  padding-right: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 145.8%;
+  letter-spacing: 0.03rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.item__text-content_crossed-out {
+  text-decoration: line-through;
+}
+
+.item__tools {
+  display: flex;
+  gap: 5px;
+}
+
+.item__state-tool {
+  padding: 6px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.item__checkbox {
+  height: 28px;
+  width: 28px;
+  border: 1px solid #d2d2d2;
+  outline-color: transparent;
+  background-color: #f0f5f8;
+}
+
+.item__edit-tool {
+  padding: 0 14px;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #949494;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.item__delete-tool {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 14px;
+  cursor: pointer;
+  gap: 7px;
+}
+
+.item__tool-depiction {
+  font-weight: 400;
+  line-height: 181.8%;
+  letter-spacing: 0.01375rem;
+  color: #949494;
+  font-size: 0.6875rem;
+}
+
+.toDoList__trash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toDoList__trash-depiction {
+  color: #ff0000;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 181.8%;
+  letter-spacing: 0.02rem;
+}

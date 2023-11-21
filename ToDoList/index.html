@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/resset.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="toDoList">
+      <form action="#" class="form" id="form">
+        <input
+          type="text"
+          class="form__input"
+          id="formInput"
+          placeholder="Write a note"
+          name="input"
+        />
+        <button type="submit" class="form__btn" id="formBtn" name="button">
+          Add
+        </button>
+      </form>
+
+      <div class="toDoList__field" id="field"></div>
+      <div class="toDoList__trash" id="cleanItems">
+        <img src="./images/trash.svg" alt="" />
+        <div class="toDoList__trash-depiction">CLEAN ITEMS</div>
+      </div>
+    </div>
+    <script type="module" src="./src/index.js"></script>
+    <script type="module" src="./src/render.js"></script>
+    <script type="module" src="./src/utilities.js"></script>
+    <script type="module" src="./src/updateListeners.js"></script>
+    <script type="module" src="./src/cookieHandlers.js"></script>
+  </body>
+</html>
